@@ -1,0 +1,75 @@
+h1{
+  background: linear-gradient(0deg, red , black);
+  background-clip: text;
+  margin-left: 0;
+  text-align: center;
+  color:transparent;
+  animation: ref 10s infinite;
+  animation-direction: alternate-reverse;
+}
+p{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: grey;
+margin-left: 0;
+font-size: 50px;
+font-weight: bold;
+text-align: center;
+margin-top: -70px;
+}
+@keyframes ref {
+  0%{
+    background: linear-gradient(0deg, red , black);
+  background-clip: text;
+  color:transparent;
+  }
+  10%{
+    background: linear-gradient(35deg, red , black);
+  background-clip: text;
+  color:transparent;
+  }
+  20%{
+    background: linear-gradient(70deg, red , black);
+  background-clip: text;
+  color:transparent;
+  }
+  30%{
+    background: linear-gradient(105deg, red , black);
+  background-clip: text;
+  color:transparent;
+  }
+  40%{
+    background: linear-gradient(140deg, red , black);
+  background-clip: text;
+  color:transparent;
+  }
+  50%{
+      background: linear-gradient(175deg, red , black);
+    background-clip: text;
+    color:transparent;
+  }
+  60%{
+    background: linear-gradient(210deg, red , black);
+  background-clip: text;
+  color:transparent;
+  }
+  70%{
+    background: linear-gradient(245deg, red , black);
+  background-clip: text;
+  color:transparent;
+  }
+  80%{
+    background: linear-gradient(280deg, red , black);
+  background-clip: text;
+  color:transparent;
+  }
+  90%{
+    background: linear-gradient(315deg, red , black);
+  background-clip: text;
+  color:transparent;
+  }
+  100%{
+    background: linear-gradient(360deg, red , black);
+  background-clip: text;
+  color:transparent;
+  }
+}
